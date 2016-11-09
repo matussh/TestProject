@@ -6,6 +6,7 @@ int main(){
 	FILE *fr;
 	fr=fopen("num.txt", "r");
 	int x, y, z, q;
+	int p=15;
 	
 	if(fr==NULL){
 		printf("error");
