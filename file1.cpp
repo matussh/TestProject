@@ -3,7 +3,7 @@
 #include <ctype.h>
 
 int main(){
-	FILE *fr;
+	FILE *fr *fw;
 	fr=fopen("num.txt", "r");
 	int x, y, z, q;
 	int p=15;
